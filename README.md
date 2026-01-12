@@ -18,7 +18,7 @@ Il sistema raccoglie dati da sensori collegati a **Arduino UNO R4**, li invia a 
 | ------------- | ----------------- | --------------------------- |
 | Hardware      | Arduino UNO R4    | Microcontrollore principale |
 | Sensori       | Temp / Umidità / Qualità dell'aria    | Raccolta dati               |
-| Comunicazione | USB (per adesso)  | Invio dati al server        |
+| Comunicazione | WiFi  | Invio dati al server        |
 | Backend       | Server Python (Flask) | API, storico, streaming dati     |
 | Frontend      | Pagina web     | Visualizzazione e grafici   |
 
@@ -31,7 +31,7 @@ Il sistema raccoglie dati da sensori collegati a **Arduino UNO R4**, li invia a 
 | MCU           | Arduino UNO R4      | Controllo e acquisizione |
 | Sensore T/H   | DHT22               | Temperatura e umidità    |
 | Sensori di qualità dell'aria | Vari (non ancora installati) | Qualità dell'aria
-| Alimentazione | USB / 5V            | Alimentazione sistema    |
+| Alimentazione | USB-C / 5V            | Alimentazione sistema    |
 
 ---
 
@@ -91,7 +91,6 @@ La pagina (file: `centrale_meteo.html`), nel [sito](https://github.com/DazeForFu
 
 * Sensori qualità dell’aria (PM2.5 / CO₂)
 * Esportazione CSV
-
 ---
 
 ## 📬 Contatti
